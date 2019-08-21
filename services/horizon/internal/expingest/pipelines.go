@@ -17,11 +17,11 @@ import (
 	"github.com/stellar/go/xdr"
 )
 
-type pipelineType string
+type pType string
 
 const (
-	statePipeline  pipelineType = "state_pipeline"
-	ledgerPipeline pipelineType = "ledger_pipeline"
+	statePipeline  pType = "state_pipeline"
+	ledgerPipeline pType = "ledger_pipeline"
 )
 
 func accountForSignerStateNode(q *history.Q) *supportPipeline.PipelineNode {
@@ -113,7 +113,7 @@ func addPipelineHooks(
 	ingestSession ingest.Session,
 	graph *orderbook.OrderBookGraph,
 ) {
-	var pipelineType pipelineType
+	var pipelineType pType
 	switch p.(type) {
 	case *pipeline.StatePipeline:
 		pipelineType = statePipeline
