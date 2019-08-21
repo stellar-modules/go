@@ -8,6 +8,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
+
 	"github.com/stellar/go/services/horizon/internal/db2"
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/xdr"
@@ -162,6 +163,12 @@ type Effect struct {
 	DetailsString      null.String `db:"details"`
 }
 
+// SequenceBumped is a struct of data from `effects.DetailsString`
+// when the effect type is sequence bumped.
+type SequenceBumped struct {
+	NewSeq int64 `json:"new_seq"`
+}
+
 // EffectsQ is a helper struct to aid in configuring queries that loads
 // slices of Ledger structs.
 type EffectsQ struct {
@@ -272,11 +279,12 @@ type Offer struct {
 	SellingAsset xdr.Asset `db:"sellingasset"`
 	BuyingAsset  xdr.Asset `db:"buyingasset"`
 
-	Amount xdr.Int64 `db:"amount"`
-	Pricen int32     `db:"pricen"`
-	Priced int32     `db:"priced"`
-	Price  float64   `db:"price"`
-	Flags  uint32    `db:"flags"`
+	Amount             xdr.Int64 `db:"amount"`
+	Pricen             int32     `db:"pricen"`
+	Priced             int32     `db:"priced"`
+	Price              float64   `db:"price"`
+	Flags              uint32    `db:"flags"`
+	LastModifiedLedger uint32    `db:"last_modified_ledger"`
 }
 
 // OperationsQ is a helper struct to aid in configuring queries that loads
@@ -309,7 +317,7 @@ type QSigners interface {
 // QOffers defines offer related queries.
 type QOffers interface {
 	GetAllOffers() ([]Offer, error)
-	UpsertOffer(offer xdr.OfferEntry) error
+	UpsertOffer(offer xdr.OfferEntry, lastModifiedLedger xdr.Uint32) error
 	RemoveOffer(offerID xdr.Int64) error
 }
 

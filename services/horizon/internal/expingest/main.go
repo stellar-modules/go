@@ -28,7 +28,8 @@ const (
 	// - 1: Initial version
 	// - 2: We added the orderbook, offers processors and distributed
 	//      ingestion.
-	CurrentVersion = 2
+	// - 3: We added last_modified_ledger to the offers table.
+	CurrentVersion = 3
 )
 
 var log = ilog.DefaultLogger.WithField("service", "expingest")
@@ -161,6 +162,11 @@ func (s *System) Run() {
 			// be updated when leading instance finishes processing state.
 			// In case of errors it will start `Run` from the beginning.
 			log.Info("Starting ingestion system from empty state...")
+
+			// Clear last_ingested_ledger in key value store
+			if err = s.historyQ.UpdateLastLedgerExpIngest(0); err != nil {
+				return errors.Wrap(err, "Error updating last ingested ledger")
+			}
 
 			err = s.historyQ.Session.TruncateTables(
 				history.ExperimentalIngestionTables,
