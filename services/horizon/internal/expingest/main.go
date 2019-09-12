@@ -4,6 +4,7 @@
 package expingest
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/stellar/go/clients/stellarcore"
@@ -28,8 +29,7 @@ const (
 	// - 1: Initial version
 	// - 2: We added the orderbook, offers processors and distributed
 	//      ingestion.
-	// - 3: We added last_modified_ledger to the offers table.
-	CurrentVersion = 3
+	CurrentVersion = 2
 )
 
 var log = ilog.DefaultLogger.WithField("service", "expingest")
@@ -40,6 +40,7 @@ type Config struct {
 
 	HistorySession    *db.Session
 	HistoryArchiveURL string
+	TempSet           io.TempSet
 
 	OrderBookGraph *orderbook.OrderBookGraph
 }
@@ -75,9 +76,7 @@ func NewSystem(config Config) (*System, error) {
 		StateReporter:  &LoggingStateReporter{Log: log, Interval: 100000},
 		LedgerReporter: &LoggingLedgerReporter{Log: log},
 
-		TempSet: &io.PostgresTempSet{
-			Session: config.HistorySession,
-		},
+		TempSet: config.TempSet,
 	}
 
 	addPipelineHooks(
@@ -161,7 +160,8 @@ func (s *System) Run() {
 			// `LastLedgerExpIngest` value is blocked for update and will always
 			// be updated when leading instance finishes processing state.
 			// In case of errors it will start `Run` from the beginning.
-			log.Info("Starting ingestion system from empty state...")
+			log.WithField("temp_set", fmt.Sprintf("%T", s.session.TempSet)).
+				Info("Starting ingestion system from empty state...")
 
 			// Clear last_ingested_ledger in key value store
 			if err = s.historyQ.UpdateLastLedgerExpIngest(0); err != nil {

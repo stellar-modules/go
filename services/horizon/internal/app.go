@@ -29,8 +29,7 @@ import (
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/log"
-	"github.com/throttled/throttled"
-	"golang.org/x/net/http2"
+	"github.com/stellar/throttled"
 	graceful "gopkg.in/tylerb/graceful.v1"
 )
 
@@ -98,8 +97,6 @@ func (a *App) Serve() {
 		},
 	}
 
-	http2.ConfigureServer(srv.Server, nil)
-
 	log.Infof("Starting horizon on %s (ingest: %v)", addr, a.config.Ingest)
 
 	go a.run()
@@ -116,7 +113,7 @@ func (a *App) Serve() {
 	}
 
 	if err != nil {
-		log.Panic(err)
+		log.Fatal(err)
 	}
 
 	a.CloseDB()

@@ -85,3 +85,70 @@ func (pp *PathPayment) BuildXDR() (xdr.Operation, error) {
 	SetOpSourceAccount(&op, pp.SourceAccount)
 	return op, nil
 }
+
+// FromXDR for PathPayment initialises the txnbuild struct from the corresponding xdr Operation.
+func (pp *PathPayment) FromXDR(xdrOp xdr.Operation) error {
+	result, ok := xdrOp.Body.GetPathPaymentOp()
+	if !ok {
+		return errors.New("error parsing path_payment operation from xdr")
+	}
+
+	pp.SourceAccount = accountFromXDR(xdrOp.SourceAccount)
+	pp.Destination = result.Destination.Address()
+	pp.DestAmount = amount.String(result.DestAmount)
+	pp.SendMax = amount.String(result.SendMax)
+
+	destAsset, err := assetFromXDR(result.DestAsset)
+	if err != nil {
+		return errors.Wrap(err, "error parsing dest_asset in path_payment operation")
+	}
+	pp.DestAsset = destAsset
+
+	sendAsset, err := assetFromXDR(result.SendAsset)
+	if err != nil {
+		return errors.Wrap(err, "error parsing send_asset in path_payment operation")
+	}
+	pp.SendAsset = sendAsset
+
+	pp.Path = []Asset{}
+	for _, p := range result.Path {
+		pathAsset, err := assetFromXDR(p)
+		if err != nil {
+			return errors.Wrap(err, "error parsing paths in path_payment operation")
+		}
+		pp.Path = append(pp.Path, pathAsset)
+	}
+
+	return nil
+}
+
+// Validate for PathPayment validates the required struct fields. It returns an error if any
+// of the fields are invalid. Otherwise, it returns nil.
+func (pp *PathPayment) Validate() error {
+	err := validateStellarPublicKey(pp.Destination)
+	if err != nil {
+		return NewValidationError("Destination", err.Error())
+	}
+
+	err = validateStellarAsset(pp.SendAsset)
+	if err != nil {
+		return NewValidationError("SendAsset", err.Error())
+	}
+
+	err = validateStellarAsset(pp.DestAsset)
+	if err != nil {
+		return NewValidationError("DestAsset", err.Error())
+	}
+
+	err = validateAmount(pp.SendMax)
+	if err != nil {
+		return NewValidationError("SendMax", err.Error())
+	}
+
+	err = validateAmount(pp.DestAmount)
+	if err != nil {
+		return NewValidationError("DestAmount", err.Error())
+	}
+
+	return nil
+}

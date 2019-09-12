@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/throttled/throttled"
+	"github.com/stellar/throttled"
 )
 
 // Config is the configuration for horizon.  It gets populated by the
@@ -49,6 +49,9 @@ type Config struct {
 	// * In-Memory path finding
 	// * Accounts for signers endpoint
 	EnableExperimentalIngestion bool
+	// IngestStateReaderTempSet defines where to store temporary objects during state
+	// ingestion. Possible options are `memory` and `postgres`.
+	IngestStateReaderTempSet string
 	// IngestFailedTransactions toggles whether to ingest failed transactions
 	IngestFailedTransactions bool
 	// CursorName is the cursor used for ingesting from stellar-core.
