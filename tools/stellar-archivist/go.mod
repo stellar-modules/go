@@ -7,5 +7,3 @@ require (
 	github.com/stellar-modules/go/sdk v0.0.0-20190914042509-df015cd57c57
 	github.com/stretchr/testify v1.4.0
 )
-
-replace github.com/stellar-modules/go/sdk => ../../sdk

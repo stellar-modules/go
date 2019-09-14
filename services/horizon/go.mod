@@ -30,7 +30,3 @@ require (
 	golang.org/x/tools v0.0.0-20190624180213-70d37148ca0c // indirect
 	gopkg.in/tylerb/graceful.v1 v1.2.13
 )
-
-replace github.com/stellar-modules/go/sdk => ../../sdk
-
-replace github.com/stellar-modules/go/exp => ../../exp

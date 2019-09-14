@@ -9,7 +9,3 @@ require (
 	github.com/stretchr/testify v1.4.0
 	github.com/tyler-smith/go-bip39 v0.0.0-20180618194314-52158e4697b8
 )
-
-replace github.com/stellar-modules/go/sdk => ../../sdk
-
-replace github.com/stellar-modules/go/exp => ../../exp

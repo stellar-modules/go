@@ -19,7 +19,3 @@ require (
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/tools v0.0.0-20190624180213-70d37148ca0c // indirect
 )
-
-replace github.com/stellar-modules/go/sdk => ../../sdk
-
-replace github.com/stellar-modules/go/services/internal => ../internal

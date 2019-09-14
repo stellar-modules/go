@@ -58,8 +58,8 @@ github.com/spf13/cobra v0.0.0-20160830174925-9c28e4bbd74e
 github.com/spf13/jwalterweatherman v0.0.0-20141219030609-3d60171a6431
 github.com/spf13/pflag v0.0.0-20161005214240-4bd69631f475
 github.com/spf13/viper v0.0.0-20150621231900-db7ff930a189
+github.com/stellar-modules/go/sdk v0.0.0-20190914042509-df015cd57c57
 github.com/stellar/go-xdr v0.0.0-20180917104419-0bc96f33a18e
-github.com/stellar-modules/go/sdk v0.0.0-00010101000000-000000000000 => ../sdk
 github.com/stretchr/objx v0.1.0
 github.com/stretchr/testify v1.4.0
 github.com/valyala/bytebufferpool v1.0.0

@@ -8,5 +8,3 @@ require (
 	github.com/sirupsen/logrus v1.0.6-0.20180530095059-070c81def33f
 	github.com/stellar-modules/go/sdk v0.0.0-20190914042509-df015cd57c57
 )
-
-replace github.com/stellar-modules/go/sdk => ../../sdk
