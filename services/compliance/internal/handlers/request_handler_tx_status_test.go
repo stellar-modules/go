@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/goji/httpauth"
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/mocks"
-	"github.com/stellar/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/services/compliance/internal/config"
+	"github.com/stellar-modules/go/services/compliance/internal/mocks"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
 )
 
 func TestRequestHandlerTxStatus(t *testing.T) {

@@ -1,7 +1,7 @@
 package paths
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Query is a query for paths

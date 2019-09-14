@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	. "github.com/stellar/go/services/horizon/internal/db2/history"
-	. "github.com/stellar/go/services/horizon/internal/test/trades"
-	"github.com/stellar/go/sdk/support/render/hal"
-	stellarTime "github.com/stellar/go/sdk/support/time"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	. "github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	. "github.com/stellar-modules/go/services/horizon/internal/test/trades"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
+	stellarTime "github.com/stellar-modules/go/sdk/support/time"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func TestTradeActions_Index(t *testing.T) {
@@ -350,7 +350,7 @@ func TestTradeActions_AmountsExceedInt64(t *testing.T) {
 }
 
 func TestTradeActions_IndexRegressions(t *testing.T) {
-	t.Run("Regression:  https://github.com/stellar/go/services/horizon/internal/issues/318", func(t *testing.T) {
+	t.Run("Regression:  https://github.com/stellar-modules/go/services/horizon/internal/issues/318", func(t *testing.T) {
 		ht := StartHTTPTest(t, "trades")
 		defer ht.Finish()
 
@@ -365,7 +365,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 		ht.Assert.Equal(404, w.Code) //This used to be 200 with length 0
 	})
 
-	t.Run("Regression for nil prices: https://github.com/stellar/go/issues/357", func(t *testing.T) {
+	t.Run("Regression for nil prices: https://github.com/stellar-modules/go/issues/357", func(t *testing.T) {
 		ht := StartHTTPTest(t, "trades")
 		defer ht.Finish()
 
@@ -380,7 +380,7 @@ func TestTradeActions_IndexRegressions(t *testing.T) {
 
 // TestTradeActions_AggregationOrdering checks that open/close aggregation
 // fields are correct for multiple trades that occur in the same ledger
-// https://github.com/stellar/go/issues/215
+// https://github.com/stellar-modules/go/issues/215
 func TestTradeActions_AggregationOrdering(t *testing.T) {
 
 	ht := StartHTTPTest(t, "base")

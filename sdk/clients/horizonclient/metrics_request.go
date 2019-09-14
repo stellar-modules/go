@@ -1,6 +1,6 @@
 package horizonclient
 
-import "github.com/stellar/go/sdk/support/errors"
+import "github.com/stellar-modules/go/sdk/support/errors"
 
 // BuildURL returns the url for getting metrics about a running horizon instance
 func (mr metricsRequest) BuildURL() (endpoint string, err error) {

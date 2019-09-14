@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/stellar/go/sdk/keypair"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // TransactionEnvelopeMutator is a interface that wraps the

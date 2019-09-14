@@ -2,7 +2,7 @@ package dbtest
 
 import (
 	"github.com/jmoiron/sqlx"
-	"github.com/stellar/go/sdk/support/db/sqlutils"
+	"github.com/stellar-modules/go/sdk/support/db/sqlutils"
 	"github.com/stretchr/testify/require"
 )
 

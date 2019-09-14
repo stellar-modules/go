@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // PagingToken returns a suitable paging token for the Offer

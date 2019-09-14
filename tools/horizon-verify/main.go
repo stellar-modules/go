@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/sdk/clients/horizonclient"
-	protocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/clients/horizonclient"
+	protocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 var horizonURL string

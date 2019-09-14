@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/sdk/support/render/hal"
-	"github.com/stellar/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/services/horizon/internal/actions"
+	"github.com/stellar-modules/go/services/horizon/internal/operationfeestats"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
 )
 
 // This file contains the actions:

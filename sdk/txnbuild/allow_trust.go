@@ -3,8 +3,8 @@ package txnbuild
 import (
 	"bytes"
 
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // AllowTrust represents the Stellar allow trust operation. See

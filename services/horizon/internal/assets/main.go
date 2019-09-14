@@ -3,7 +3,7 @@ package assets
 
 import (
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ErrInvalidString gets returns when the string form of the asset type is invalid

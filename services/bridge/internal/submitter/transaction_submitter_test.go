@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	hc "github.com/stellar/go/sdk/clients/horizonclient"
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/services/bridge/internal/db"
-	"github.com/stellar/go/services/bridge/internal/mocks"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/txnbuild"
+	hc "github.com/stellar-modules/go/sdk/clients/horizonclient"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/services/bridge/internal/db"
+	"github.com/stellar-modules/go/services/bridge/internal/mocks"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

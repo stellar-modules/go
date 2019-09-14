@@ -5,7 +5,7 @@ package participants
 import (
 	"fmt"
 
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ForOperation returns all the participating accounts from the

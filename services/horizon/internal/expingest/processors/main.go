@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
 )
 
 type PipelineContextKey string

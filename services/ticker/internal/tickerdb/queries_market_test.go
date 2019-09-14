@@ -7,7 +7,7 @@ import (
 	"time"
 
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/sdk/support/db/dbtest"
+	"github.com/stellar-modules/go/sdk/support/db/dbtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

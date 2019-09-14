@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stellar/go/exp/ingest/adapters"
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/exp/ingest/adapters"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 var _ Session = &LiveSession{}

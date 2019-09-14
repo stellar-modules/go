@@ -4,9 +4,9 @@ import (
 	"context"
 	stdio "io"
 
-	"github.com/stellar/go/exp/ingest/io"
-	ingestpipeline "github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	ingestpipeline "github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/support/pipeline"
 )
 
 func (p *RootProcessor) ProcessState(ctx context.Context, store *pipeline.Store, r io.StateReader, w io.StateWriter) error {

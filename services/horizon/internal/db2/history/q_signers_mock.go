@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
 	"github.com/stretchr/testify/mock"
 )
 

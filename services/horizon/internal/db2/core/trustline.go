@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func (tl Trustline) IsAuthorized() bool {

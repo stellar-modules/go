@@ -3,10 +3,10 @@ package pipeline
 import (
 	"context"
 
-	"github.com/stellar/go/exp/ingest/io"
-	supportPipeline "github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	supportPipeline "github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func (w *stateProcessorWrapper) Process(ctx context.Context, store *supportPipeline.Store, reader supportPipeline.Reader, writer supportPipeline.Writer) error {

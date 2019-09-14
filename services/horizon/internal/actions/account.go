@@ -3,13 +3,13 @@ package actions
 import (
 	"context"
 
-	protocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/render/hal"
+	protocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/core"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/services/horizon/internal/resourceadapter"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
 )
 
 // AccountInfo returns the information about an account identified by addr.

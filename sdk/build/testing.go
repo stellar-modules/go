@@ -3,7 +3,7 @@ package build
 import (
 	"fmt"
 
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // MockSequenceProvider is a mock sequence provider.

@@ -5,10 +5,10 @@ import (
 	stdio "io"
 	"testing"
 
-	"github.com/stellar/go/exp/ingest/io"
-	supportPipeline "github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	supportPipeline "github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/sdk/xdr"
 	"github.com/stretchr/testify/suite"
 )
 

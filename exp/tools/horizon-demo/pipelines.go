@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stellar/go/exp/ingest"
-	"github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/ingest/processors"
-	"github.com/stellar/go/exp/orderbook"
-	supportPipeline "github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest"
+	"github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/ingest/processors"
+	"github.com/stellar-modules/go/exp/orderbook"
+	supportPipeline "github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func buildStatePipeline(db *Database, orderBookGraph *orderbook.OrderBookGraph) *pipeline.StatePipeline {

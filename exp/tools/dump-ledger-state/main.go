@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/stellar/go/exp/ingest"
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/ingest/processors"
-	"github.com/stellar/go/sdk/support/historyarchive"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/ingest/processors"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func main() {

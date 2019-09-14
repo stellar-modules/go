@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/render/hal"
-	"github.com/stellar/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/services/horizon/internal/actions"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/services/horizon/internal/render/sse"
+	"github.com/stellar-modules/go/services/horizon/internal/resourceadapter"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
 )
 
 // This file contains the actions:

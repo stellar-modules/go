@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/go-chi/chi"
-	"github.com/stellar/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
 )
 
 func GetStringFromURL(r *http.Request, key string) (string, error) {

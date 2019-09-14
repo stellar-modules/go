@@ -1,9 +1,9 @@
 package mocks
 
 import (
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/txnbuild"
-	"github.com/stellar/go/sdk/xdr"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/txnbuild"
+	"github.com/stellar-modules/go/sdk/xdr"
 	"github.com/stretchr/testify/mock"
 )
 

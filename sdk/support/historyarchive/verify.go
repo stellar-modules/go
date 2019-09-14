@@ -14,7 +14,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Transaction sets are sorted in two different orders: one for hashing and

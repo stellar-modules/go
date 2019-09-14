@@ -1,10 +1,10 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/sdk/amount"
-	"github.com/stellar/go/sdk/price"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/amount"
+	"github.com/stellar-modules/go/sdk/price"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ManageBuyOffer represents the Stellar manage buy offer operation. See

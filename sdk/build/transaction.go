@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/stellar/go/sdk/network"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/network"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Transaction groups the creation of a new TransactionBuilder with a call

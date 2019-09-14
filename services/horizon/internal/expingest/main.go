@@ -7,17 +7,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stellar/go/sdk/clients/stellarcore"
-	"github.com/stellar/go/exp/ingest"
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/exp/ingest/ledgerbackend"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/historyarchive"
-	ilog "github.com/stellar/go/sdk/support/log"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/clients/stellarcore"
+	"github.com/stellar-modules/go/exp/ingest"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/exp/ingest/ledgerbackend"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
+	ilog "github.com/stellar-modules/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const (

@@ -1,7 +1,7 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Operation represents the operation types of the Stellar network.

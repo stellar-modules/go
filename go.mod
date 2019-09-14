@@ -1,3 +1,3 @@
-module github.com/stellar/go
+module github.com/stellar-modules/go
 
 go 1.12

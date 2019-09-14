@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 func Mirror(src *Archive, dst *Archive, opts *CommandOptions) error {

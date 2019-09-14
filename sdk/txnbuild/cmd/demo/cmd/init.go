@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/sdk/clients/horizonclient"
-	demo "github.com/stellar/go/sdk/txnbuild/cmd/demo/operations"
+	"github.com/stellar-modules/go/sdk/clients/horizonclient"
+	demo "github.com/stellar-modules/go/sdk/txnbuild/cmd/demo/operations"
 )
 
 // initCmd represents the init command

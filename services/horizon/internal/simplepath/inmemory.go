@@ -2,9 +2,9 @@ package simplepath
 
 import (
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/services/horizon/internal/paths"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const (

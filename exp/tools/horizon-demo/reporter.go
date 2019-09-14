@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // LoggingStateReporter logs the progress of a session running its

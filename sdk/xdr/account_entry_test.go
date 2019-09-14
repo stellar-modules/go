@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/stellar/go/sdk/xdr"
+	. "github.com/stellar-modules/go/sdk/xdr"
 )
 
 var _ = Describe("xdr.AccountEntry#SignerSummary()", func() {

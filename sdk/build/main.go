@@ -6,15 +6,15 @@
 // struct that is being iteratively built by having zero or more Mutator structs
 // applied to it. See ExampleTransactionBuilder in main_test.go for an example.
 // Deprecated: build package with all its exported methods and variables will no longer be
-// maintained. It will be removed in future versions of the SDK. Use txnbuild (https://godoc.org/github.com/stellar/go/sdk/txnbuild) instead.
+// maintained. It will be removed in future versions of the SDK. Use txnbuild (https://godoc.org/github.com/stellar-modules/go/sdk/txnbuild) instead.
 package build
 
 import (
 	"math"
 
-	"github.com/stellar/go/sdk/amount"
-	"github.com/stellar/go/sdk/network"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/amount"
+	"github.com/stellar-modules/go/sdk/network"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const (

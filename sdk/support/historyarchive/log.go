@@ -5,7 +5,7 @@
 package historyarchive
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 	"io"
 	"log"
 	"time"

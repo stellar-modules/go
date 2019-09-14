@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 // DB represents an ephemeral database that can be starts blank and can be used

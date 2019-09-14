@@ -9,18 +9,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/hchi"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/render"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/sdk/strkey"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/render/hal"
-	"github.com/stellar/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/services/horizon/internal/actions"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/hchi"
+	"github.com/stellar-modules/go/services/horizon/internal/ledger"
+	"github.com/stellar-modules/go/services/horizon/internal/render"
+	hProblem "github.com/stellar-modules/go/services/horizon/internal/render/problem"
+	"github.com/stellar-modules/go/services/horizon/internal/render/sse"
+	"github.com/stellar-modules/go/services/horizon/internal/toid"
+	"github.com/stellar-modules/go/sdk/strkey"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
 )
 
 // streamFunc represents the signature of the function that handles requests
@@ -79,7 +79,7 @@ func (we *web) streamHandler(jfn interface{}, sfn streamFunc, params interface{}
 			lastLedgerState := ledger.CurrentState()
 
 			// Rate limit the request if it's a call to stream since it queries the DB every second. See
-			// https://github.com/stellar/go/issues/715 for more details.
+			// https://github.com/stellar-modules/go/issues/715 for more details.
 			rateLimiter := we.rateLimiter
 			if rateLimiter != nil {
 				limited, _, err := rateLimiter.RateLimiter.RateLimit(rateLimiter.VaryBy.Key(r), 1)

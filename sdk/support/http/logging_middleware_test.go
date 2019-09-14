@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/stellar/go/sdk/support/http/httptest"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/sdk/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

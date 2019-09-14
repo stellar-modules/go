@@ -3,8 +3,8 @@ package adapters
 import (
 	"errors"
 
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/exp/ingest/ledgerbackend"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/exp/ingest/ledgerbackend"
 )
 
 const noBackendErr = "missing LedgerBackendAdapter.Backend"

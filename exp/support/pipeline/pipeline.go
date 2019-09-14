@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 func New(rootProcessor *PipelineNode) *Pipeline {

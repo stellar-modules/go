@@ -1,8 +1,8 @@
 package build
 
 import (
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Inflation groups the creation of a new InflationBuilder with a call to Mutate.

@@ -1,7 +1,7 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // SimpleAccount is a minimal implementation of an Account.

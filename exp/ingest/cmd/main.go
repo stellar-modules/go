@@ -6,9 +6,9 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/stellar/go/exp/ingest/ledgerbackend"
+	"github.com/stellar-modules/go/exp/ingest/ledgerbackend"
 
-	ingestadapters "github.com/stellar/go/exp/ingest/adapters"
+	ingestadapters "github.com/stellar-modules/go/exp/ingest/adapters"
 )
 
 const dbURI = "postgres://stellar:postgres@localhost:8002/core"

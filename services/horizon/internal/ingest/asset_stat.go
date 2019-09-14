@@ -5,11 +5,11 @@ import (
 	"strings"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/core"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func (assetStats *AssetStats) init() {

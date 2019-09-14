@@ -3,7 +3,7 @@ Package horizonclient provides client access to a Horizon server, allowing an ap
 
 This library provides an interface to the Stellar Horizon service. It supports the building of Go applications on
 top of the Stellar network (https://www.stellar.org/). Transactions may be constructed using the sister package to
-this one, txnbuild (https://github.com/stellar/go/tree/master/txnbuild), and then submitted with this client to any
+this one, txnbuild (https://github.com/stellar-modules/go/tree/master/txnbuild), and then submitted with this client to any
 Horizon instance for processing onto the ledger. Together, these two libraries provide a complete Stellar SDK.
 
 For more information and further examples, see https://www.stellar.org/developers/go/reference/index.html.
@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/protocols/horizon/effects"
-	"github.com/stellar/go/sdk/protocols/horizon/operations"
-	"github.com/stellar/go/sdk/support/render/problem"
-	"github.com/stellar/go/sdk/txnbuild"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/effects"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/operations"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 )
 
 // cursor represents `cursor` param in queries

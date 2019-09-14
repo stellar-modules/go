@@ -8,7 +8,7 @@ import (
 	"context"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // ContextWithLogBuffer returns a context and a buffer into which the new, bound

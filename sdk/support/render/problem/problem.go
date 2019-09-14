@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 var (
@@ -25,7 +25,7 @@ var (
 		Detail: "An error occurred while processing this request.  This is usually due " +
 			"to a bug within the server software.  Trying this request again may " +
 			"succeed if the bug is transient, otherwise please report this issue " +
-			"to the issue tracker at: https://github.com/stellar/go/issues." +
+			"to the issue tracker at: https://github.com/stellar-modules/go/issues." +
 			" Please include this response in your issue.",
 	}
 

@@ -14,16 +14,16 @@ import (
 	"encoding/base64"
 
 	"github.com/sirupsen/logrus"
-	hc "github.com/stellar/go/sdk/clients/horizonclient"
-	"github.com/stellar/go/sdk/protocols/compliance"
-	"github.com/stellar/go/sdk/protocols/horizon/effects"
-	"github.com/stellar/go/sdk/protocols/horizon/operations"
-	"github.com/stellar/go/services/bridge/internal/config"
-	"github.com/stellar/go/services/bridge/internal/db"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/sdk/strkey"
-	"github.com/stellar/go/sdk/support/errors"
+	hc "github.com/stellar-modules/go/sdk/clients/horizonclient"
+	"github.com/stellar-modules/go/sdk/protocols/compliance"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/effects"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/operations"
+	"github.com/stellar-modules/go/services/bridge/internal/config"
+	"github.com/stellar-modules/go/services/bridge/internal/db"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols/bridge"
+	callback "github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/stellar-modules/go/sdk/strkey"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 // PaymentListener is listening for a new payments received by ReceivingAccount

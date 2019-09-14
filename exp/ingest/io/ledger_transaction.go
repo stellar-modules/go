@@ -1,7 +1,7 @@
 package io
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Change is a developer friendly representation of LedgerEntryChanges.

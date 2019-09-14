@@ -3,9 +3,9 @@ package core
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/test"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func TestLatestLedger(t *testing.T) {

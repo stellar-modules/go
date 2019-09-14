@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/services/horizon/internal/httpx"
+	"github.com/stellar-modules/go/services/horizon/internal/ledger"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
 )
 
 // Populate fills in the details

@@ -5,9 +5,9 @@ import (
 	stdio "io"
 	"testing"
 
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func TestProcessOrderBookState(t *testing.T) {

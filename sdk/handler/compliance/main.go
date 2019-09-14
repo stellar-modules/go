@@ -1,7 +1,7 @@
 package compliance
 
 import (
-	"github.com/stellar/go/sdk/protocols/compliance"
+	"github.com/stellar-modules/go/sdk/protocols/compliance"
 )
 
 // Strategy defines strategy for handling auth requests.

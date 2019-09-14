@@ -9,15 +9,15 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stellar/go/sdk/clients/horizonclient"
-	"github.com/stellar/go/sdk/network"
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/strkey"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/txnbuild"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/clients/horizonclient"
+	"github.com/stellar-modules/go/sdk/network"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/strkey"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/txnbuild"
+	"github.com/stellar-modules/go/sdk/xdr"
 
-	"github.com/stellar/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/keypair"
 )
 
 // The account address of the TestNet "friendbot"

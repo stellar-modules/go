@@ -1,7 +1,7 @@
 package processors
 
 import (
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // RootProcessor is useful when a pipeline needs to be split stream into

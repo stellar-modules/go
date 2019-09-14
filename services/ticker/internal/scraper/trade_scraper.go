@@ -3,10 +3,10 @@ package scraper
 import (
 	"time"
 
-	"github.com/stellar/go/services/ticker/internal/utils"
+	"github.com/stellar-modules/go/services/ticker/internal/utils"
 
-	horizonclient "github.com/stellar/go/sdk/clients/horizonclient"
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
+	horizonclient "github.com/stellar-modules/go/sdk/clients/horizonclient"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
 )
 
 // checkRecords check if a list of records contains entries older than minTime. If it does,

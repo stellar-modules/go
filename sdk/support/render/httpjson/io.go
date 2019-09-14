@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 type contentType int

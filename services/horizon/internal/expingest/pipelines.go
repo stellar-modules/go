@@ -4,17 +4,17 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/exp/ingest"
-	"github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/ingest/processors"
-	"github.com/stellar/go/exp/orderbook"
-	supportPipeline "github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	horizonProcessors "github.com/stellar/go/services/horizon/internal/expingest/processors"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/support/errors"
-	ilog "github.com/stellar/go/sdk/support/log"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest"
+	"github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/ingest/processors"
+	"github.com/stellar-modules/go/exp/orderbook"
+	supportPipeline "github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	horizonProcessors "github.com/stellar-modules/go/services/horizon/internal/expingest/processors"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	ilog "github.com/stellar-modules/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 type pType string

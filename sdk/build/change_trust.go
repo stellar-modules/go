@@ -1,9 +1,9 @@
 package build
 
 import (
-	"github.com/stellar/go/sdk/amount"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/amount"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ChangeTrust groups the creation of a new ChangeTrustBuilder with a call to Mutate.

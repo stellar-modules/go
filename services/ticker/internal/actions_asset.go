@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	horizonclient "github.com/stellar/go/sdk/clients/horizonclient"
-	"github.com/stellar/go/services/ticker/internal/scraper"
-	"github.com/stellar/go/services/ticker/internal/tickerdb"
-	"github.com/stellar/go/services/ticker/internal/utils"
-	hlog "github.com/stellar/go/sdk/support/log"
+	horizonclient "github.com/stellar-modules/go/sdk/clients/horizonclient"
+	"github.com/stellar-modules/go/services/ticker/internal/scraper"
+	"github.com/stellar-modules/go/services/ticker/internal/tickerdb"
+	"github.com/stellar-modules/go/services/ticker/internal/utils"
+	hlog "github.com/stellar-modules/go/sdk/support/log"
 )
 
 // RefreshAssets scrapes the most recent asset list and ingests then into the db.

@@ -6,9 +6,9 @@ import (
 	"math"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/sdk/price"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/price"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/core"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ErrNotEnough represents an error that occurs when pricing a trade on an

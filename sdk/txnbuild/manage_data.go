@@ -1,8 +1,8 @@
 package txnbuild
 
 import (
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ManageData represents the Stellar manage data operation. See

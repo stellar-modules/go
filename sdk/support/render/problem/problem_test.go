@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	ge "github.com/go-errors/errors"
-	"github.com/stellar/go/sdk/support/test"
+	"github.com/stellar-modules/go/sdk/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

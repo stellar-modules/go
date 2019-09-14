@@ -6,13 +6,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/compliance/internal/mocks"
-	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
+	"github.com/stellar-modules/go/services/compliance/internal/config"
+	"github.com/stellar-modules/go/services/compliance/internal/db"
+	"github.com/stellar-modules/go/services/compliance/internal/mocks"
+	callback "github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols/compliance"
 )
 
 func TestRequestHandlerReceive(t *testing.T) {

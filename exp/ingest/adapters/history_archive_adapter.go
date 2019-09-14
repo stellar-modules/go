@@ -3,10 +3,10 @@ package adapters
 import (
 	"fmt"
 
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/historyarchive"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const msrBufferSize = 50000

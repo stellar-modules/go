@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stellar/go/sdk/support/historyarchive"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
+	"github.com/stellar-modules/go/sdk/xdr"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 )

@@ -3,7 +3,7 @@ package adapters
 import (
 	"testing"
 
-	"github.com/stellar/go/exp/ingest/ledgerbackend"
+	"github.com/stellar-modules/go/exp/ingest/ledgerbackend"
 	"github.com/stretchr/testify/assert"
 )
 

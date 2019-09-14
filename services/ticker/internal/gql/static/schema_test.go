@@ -9,7 +9,7 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/shurcooL/httpfs/filter"
 
-	supportHttp "github.com/stellar/go/sdk/support/http"
+	supportHttp "github.com/stellar-modules/go/sdk/support/http"
 )
 
 func TestGeneratedAssets(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/historyarchive"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
 )
 
 func status(a string, opts *Options) {

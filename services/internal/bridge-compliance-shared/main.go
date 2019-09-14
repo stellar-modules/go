@@ -3,11 +3,11 @@ package shared
 import (
 	"bytes"
 
-	"github.com/stellar/go/sdk/hash"
-	"github.com/stellar/go/sdk/keypair"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/txnbuild"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/hash"
+	"github.com/stellar-modules/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/txnbuild"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // BuildTransaction is used in compliance server. The sequence number in built transaction will be equal 0!

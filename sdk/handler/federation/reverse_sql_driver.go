@@ -1,6 +1,6 @@
 package federation
 
-import "github.com/stellar/go/sdk/support/errors"
+import "github.com/stellar-modules/go/sdk/support/errors"
 
 // LookupReverseRecord implements `ReverseDriver` by performing
 // `drv.LookupReverseRecordQuery` against `drv.DB` using the provided parameter

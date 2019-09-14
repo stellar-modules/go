@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/stellar/go/sdk/support/test"
+	"github.com/stellar-modules/go/sdk/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

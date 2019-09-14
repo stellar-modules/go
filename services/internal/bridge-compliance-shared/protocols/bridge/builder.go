@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/sdk/txnbuild"
+	shared "github.com/stellar-modules/go/services/internal/bridge-compliance-shared"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 )
 
 // OperationType is the type of operation

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/exp/crypto/derivation"
-	"github.com/stellar/go/sdk/keypair"
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/exp/crypto/derivation"
+	"github.com/stellar-modules/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/support/errors"
 	"github.com/tyler-smith/go-bip39"
 )
 

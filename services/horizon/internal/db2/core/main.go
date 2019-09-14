@@ -6,10 +6,10 @@ import (
 	"strconv"
 
 	"github.com/guregu/null"
-	"github.com/stellar/go/sdk/strkey"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/strkey"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Account is a row of data from the `accounts` table

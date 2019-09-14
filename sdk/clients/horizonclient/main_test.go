@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"testing"
 
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/protocols/horizon/effects"
-	"github.com/stellar/go/sdk/protocols/horizon/operations"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/http/httptest"
-	"github.com/stellar/go/sdk/txnbuild"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/effects"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/operations"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 	"github.com/stretchr/testify/assert"
 )
 

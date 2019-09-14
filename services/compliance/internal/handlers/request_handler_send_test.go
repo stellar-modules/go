@@ -6,20 +6,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/sdk/clients/stellartoml"
-	"github.com/stellar/go/sdk/protocols/compliance"
-	"github.com/stellar/go/sdk/protocols/federation"
-	"github.com/stellar/go/sdk/support/http/httptest"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/clients/stellartoml"
+	"github.com/stellar-modules/go/sdk/protocols/compliance"
+	"github.com/stellar-modules/go/sdk/protocols/federation"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/sdk/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/compliance/internal/mocks"
-	"github.com/stellar/go/services/compliance/internal/test"
-	"github.com/stellar/go/sdk/txnbuild"
+	"github.com/stellar-modules/go/services/compliance/internal/config"
+	"github.com/stellar-modules/go/services/compliance/internal/db"
+	"github.com/stellar-modules/go/services/compliance/internal/mocks"
+	"github.com/stellar-modules/go/services/compliance/internal/test"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 )
 
 func TestRequestHandlerSendInvalidParams(t *testing.T) {

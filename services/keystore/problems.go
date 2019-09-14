@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/stellar/go/sdk/support/render/problem"
+	"github.com/stellar-modules/go/sdk/support/render/problem"
 )
 
 var errRequiredField = errors.New("field value cannot be empty")

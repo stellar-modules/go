@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // ErrMetaNotFound is returned when no meta that matches a provided filter can

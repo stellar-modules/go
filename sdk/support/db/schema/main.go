@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/db"
 )
 
 // MigrateDir represents a direction in which to perform schema migrations.

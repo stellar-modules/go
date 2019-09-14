@@ -3,7 +3,7 @@ package crypto
 import (
 	"encoding/base64"
 
-	"github.com/stellar/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/keypair"
 )
 
 // SignerVerifierInterface is the interface that helps mocking SignerVerifier

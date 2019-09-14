@@ -3,9 +3,9 @@ package internal
 import (
 	"strconv"
 
-	"github.com/stellar/go/sdk/clients/horizonclient"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/clients/horizonclient"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Account implements the `txnbuild.Account` interface.

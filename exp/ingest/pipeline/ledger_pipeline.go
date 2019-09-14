@@ -1,8 +1,8 @@
 package pipeline
 
 import (
-	"github.com/stellar/go/exp/ingest/io"
-	supportPipeline "github.com/stellar/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	supportPipeline "github.com/stellar-modules/go/exp/support/pipeline"
 )
 
 func LedgerNode(processor LedgerProcessor) *supportPipeline.PipelineNode {

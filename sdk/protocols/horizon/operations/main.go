@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/protocols/horizon/base"
-	"github.com/stellar/go/sdk/support/render/hal"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/protocols/horizon/base"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // OperationTypeNames maps from operation type to the string used to represent that type

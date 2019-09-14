@@ -3,7 +3,7 @@
 //
 // Deprecated: clients/horizon package with all its exported methods and variables will no longer be
 // maintained. It will be removed in future versions of the SDK.
-// Use clients/horizonclient (https://godoc.org/github.com/stellar/go/sdk/clients/horizonclient) instead.
+// Use clients/horizonclient (https://godoc.org/github.com/stellar-modules/go/sdk/clients/horizonclient) instead.
 package horizon
 
 import (
@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/stellar/go/sdk/build"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/build"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // DefaultTestNetClient is a default client to connect to test network

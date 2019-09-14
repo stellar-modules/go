@@ -7,17 +7,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/http/httptest"
-	"github.com/stellar/go/sdk/txnbuild"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/http/httptest"
+	"github.com/stellar-modules/go/sdk/txnbuild"
 	"github.com/stretchr/testify/assert"
 
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/services/bridge/internal/config"
-	"github.com/stellar/go/services/bridge/internal/mocks"
-	"github.com/stellar/go/services/bridge/internal/test"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/services/bridge/internal/config"
+	"github.com/stellar-modules/go/services/bridge/internal/mocks"
+	"github.com/stellar-modules/go/services/bridge/internal/test"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols/bridge"
 )
 
 func TestRequestHandlerAuthorize(t *testing.T) {

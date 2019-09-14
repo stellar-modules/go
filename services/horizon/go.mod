@@ -1,4 +1,4 @@
-module github.com/stellar/go/services/horizon
+module github.com/stellar-modules/go/services/horizon
 
 go 1.12
 
@@ -23,14 +23,14 @@ require (
 	github.com/sirupsen/logrus v1.0.6-0.20180530095059-070c81def33f
 	github.com/spf13/cobra v0.0.0-20160830174925-9c28e4bbd74e
 	github.com/spf13/viper v0.0.0-20150621231900-db7ff930a189
-	github.com/stellar/go/exp v0.0.0-00010101000000-000000000000
-	github.com/stellar/go/sdk v0.0.0-00010101000000-000000000000
+	github.com/stellar-modules/go/exp v0.0.0-00010101000000-000000000000
+	github.com/stellar-modules/go/sdk v0.0.0-00010101000000-000000000000
 	github.com/stellar/throttled v2.2.3-0.20190823235211-89d75816f59d+incompatible
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/tools v0.0.0-20190624180213-70d37148ca0c // indirect
 	gopkg.in/tylerb/graceful.v1 v1.2.13
 )
 
-replace github.com/stellar/go/sdk => ../../sdk
+replace github.com/stellar-modules/go/sdk => ../../sdk
 
-replace github.com/stellar/go/exp => ../../exp
+replace github.com/stellar-modules/go/exp => ../../exp

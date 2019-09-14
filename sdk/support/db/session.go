@@ -10,9 +10,9 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jmoiron/sqlx"
-	"github.com/stellar/go/sdk/support/db/sqlutils"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/db/sqlutils"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // Begin binds this session to a new transaction.

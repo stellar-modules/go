@@ -1,9 +1,9 @@
 package build
 
 import (
-	"github.com/stellar/go/sdk/amount"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/amount"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Payment groups the creation of a new PaymentBuilder with a call to Mutate.

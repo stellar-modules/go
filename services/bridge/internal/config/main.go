@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/stellar/go/sdk/keypair"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
+	"github.com/stellar-modules/go/sdk/keypair"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols"
 )
 
 // Config contains config params of the bridge server

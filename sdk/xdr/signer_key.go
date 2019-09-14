@@ -3,8 +3,8 @@ package xdr
 import (
 	"fmt"
 
-	"github.com/stellar/go/sdk/strkey"
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/strkey"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 // Address returns the strkey encoded form of this signer key.  This method will

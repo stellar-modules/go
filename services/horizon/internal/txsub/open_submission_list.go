@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // NewDefaultSubmissionList returns a list that manages open submissions purely

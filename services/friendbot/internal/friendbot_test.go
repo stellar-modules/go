@@ -4,9 +4,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stellar/go/sdk/clients/horizonclient"
-	"github.com/stellar/go/sdk/keypair"
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/clients/horizonclient"
+	"github.com/stellar-modules/go/sdk/keypair"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
 	"github.com/stretchr/testify/assert"
 )
 

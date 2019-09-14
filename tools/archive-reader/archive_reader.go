@@ -6,9 +6,9 @@ import (
 	stdio "io"
 	"log"
 
-	"github.com/stellar/go/exp/ingest/adapters"
-	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/sdk/support/historyarchive"
+	"github.com/stellar-modules/go/exp/ingest/adapters"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	"github.com/stellar-modules/go/sdk/support/historyarchive"
 )
 
 func main() {

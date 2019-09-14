@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"bitbucket.org/ww/goautoneg"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // Negotiate inspects the Accept header of the provided request and determines

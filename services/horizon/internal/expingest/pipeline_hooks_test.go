@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	horizonProcessors "github.com/stellar/go/services/horizon/internal/expingest/processors"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/history"
+	horizonProcessors "github.com/stellar-modules/go/services/horizon/internal/expingest/processors"
+	"github.com/stellar-modules/go/services/horizon/internal/test"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func TestStatePreProcessingHook(t *testing.T) {

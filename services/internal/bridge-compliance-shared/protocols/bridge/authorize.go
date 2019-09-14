@@ -1,9 +1,9 @@
 package bridge
 
 import (
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/stellar-modules/go/services/internal/bridge-compliance-shared/protocols"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 // AuthorizeRequest represents request made to /authorize endpoint of bridge server

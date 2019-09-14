@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"github.com/manucorporat/sse"
-	"github.com/stellar/go/sdk/support/app"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/support/app"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const clientName = "go-stellar-sdk-old"

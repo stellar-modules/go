@@ -6,13 +6,13 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/sdk/handler/federation"
-	"github.com/stellar/go/sdk/support/app"
-	"github.com/stellar/go/sdk/support/config"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/support/http"
-	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar-modules/go/sdk/handler/federation"
+	"github.com/stellar-modules/go/sdk/support/app"
+	"github.com/stellar-modules/go/sdk/support/config"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/support/http"
+	"github.com/stellar-modules/go/sdk/support/log"
 )
 
 // Config represents the configuration of a federation server

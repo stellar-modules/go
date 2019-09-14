@@ -5,11 +5,11 @@ import (
 	"fmt"
 	stdio "io"
 
-	"github.com/stellar/go/exp/ingest/io"
-	ingestpipeline "github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	ingestpipeline "github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/orderbook"
+	"github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // OrderbookProcessor is a processor (both state and ledger) that's responsible

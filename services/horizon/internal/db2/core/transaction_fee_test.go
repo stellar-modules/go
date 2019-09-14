@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/stellar-modules/go/services/horizon/internal/test"
 )
 
 func TestTransactionFeesByLedger(t *testing.T) {

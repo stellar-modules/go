@@ -2,8 +2,8 @@ package history
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/sdk/support/errors"
 )
 
 // AccountsForSigner returns a list of `AccountSigner` rows for a given signer

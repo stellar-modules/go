@@ -9,9 +9,9 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
 
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/sdk/support/db"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/services/horizon/internal/db2"
+	"github.com/stellar-modules/go/sdk/support/db"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 const (

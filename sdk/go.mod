@@ -1,4 +1,4 @@
-module github.com/stellar/go/sdk
+module github.com/stellar-modules/go/sdk
 
 go 1.12
 

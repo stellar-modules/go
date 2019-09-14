@@ -5,10 +5,10 @@ import (
 	"fmt"
 	stdio "io"
 
-	"github.com/stellar/go/exp/ingest/io"
-	ingestpipeline "github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/exp/ingest/io"
+	ingestpipeline "github.com/stellar-modules/go/exp/ingest/pipeline"
+	"github.com/stellar-modules/go/exp/support/pipeline"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 func (p *OrderbookProcessor) ProcessState(ctx context.Context, store *pipeline.Store, r io.StateReader, w io.StateWriter) error {

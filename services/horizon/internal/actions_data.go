@@ -1,10 +1,10 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/services/horizon/internal/actions"
+	"github.com/stellar-modules/go/services/horizon/internal/db2/core"
+	"github.com/stellar-modules/go/services/horizon/internal/render/sse"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
 )
 
 // Interface verifications

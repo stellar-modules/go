@@ -3,8 +3,8 @@ package horizon
 import (
 	"encoding/json"
 
-	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
-	"github.com/stellar/go/sdk/support/render/hal"
+	hProtocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
 )
 
 // Deprecated: use protocols/horizon instead

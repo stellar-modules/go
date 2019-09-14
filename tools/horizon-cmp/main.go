@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	client "github.com/stellar/go/sdk/clients/horizonclient"
-	protocol "github.com/stellar/go/sdk/protocols/horizon"
-	cmp "github.com/stellar/go/tools/horizon-cmp/internal"
+	client "github.com/stellar-modules/go/sdk/clients/horizonclient"
+	protocol "github.com/stellar-modules/go/sdk/protocols/horizon"
+	cmp "github.com/stellar-modules/go/tools/horizon-cmp/internal"
 )
 
 const horizonOld = "http://localhost:8001"

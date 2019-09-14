@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strconv"
 
-	sUrl "github.com/stellar/go/sdk/support/url"
+	sUrl "github.com/stellar-modules/go/sdk/support/url"
 )
 
 // BasePage represents the simplest page: one with no links and only embedded records.

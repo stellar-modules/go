@@ -3,7 +3,7 @@ Package txnbuild implements transactions and operations on the Stellar network.
 This library provides an interface to the Stellar transaction model. It supports the building of Go applications on
 top of the Stellar network (https://www.stellar.org/). Transactions constructed by this library may be submitted
 to any Horizon instance for processing onto the ledger, using any Stellar SDK client. The recommended client for Go
-programmers is horizonclient (https://github.com/stellar/go/tree/master/clients/horizonclient). Together, these two
+programmers is horizonclient (https://github.com/stellar-modules/go/tree/master/clients/horizonclient). Together, these two
 libraries provide a complete Stellar SDK.
 For more information and further examples, see https://www.stellar.org/developers/go/reference/index.html.
 */
@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/stellar/go/sdk/keypair"
-	"github.com/stellar/go/sdk/network"
-	"github.com/stellar/go/sdk/support/errors"
-	"github.com/stellar/go/sdk/xdr"
+	"github.com/stellar-modules/go/sdk/keypair"
+	"github.com/stellar-modules/go/sdk/network"
+	"github.com/stellar-modules/go/sdk/support/errors"
+	"github.com/stellar-modules/go/sdk/xdr"
 )
 
 // Account represents the aspects of a Stellar account necessary to construct transactions. See
@@ -244,7 +244,7 @@ func BuildChallengeTx(serverSignerSecret, clientAccountID, anchorName, network s
 		AccountID: serverKP.Address(),
 		// Action needed in release: v2.0.0
 		// TODO: remove this and use "Sequence: 0" and build transaction with optional argument
-		//  (https://github.com/stellar/go/issues/1259)
+		//  (https://github.com/stellar-modules/go/issues/1259)
 		Sequence: int64(-1),
 	}
 

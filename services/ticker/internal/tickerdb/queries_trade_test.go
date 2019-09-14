@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/lib/pq"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/sdk/support/db/dbtest"
+	"github.com/stellar-modules/go/sdk/support/db/dbtest"
 	"github.com/stretchr/testify/require"
 )
 

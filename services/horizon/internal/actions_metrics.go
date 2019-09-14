@@ -2,8 +2,8 @@ package horizon
 
 import (
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar-modules/go/services/horizon/internal/actions"
+	"github.com/stellar-modules/go/sdk/support/render/hal"
 )
 
 // Interface verification
