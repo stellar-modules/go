@@ -19,8 +19,8 @@ import (
 	"github.com/stellar/go/services/horizon/internal/txsub"
 	results "github.com/stellar/go/services/horizon/internal/txsub/results/db"
 	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/support/log"
 )
 
 func mustInitHorizonDB(app *App) {

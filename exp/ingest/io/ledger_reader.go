@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/stellar/go/exp/ingest/ledgerbackend"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // DBLedgerReader is a database-backed implementation of the io.LedgerReader interface.

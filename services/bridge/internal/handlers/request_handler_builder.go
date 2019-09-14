@@ -6,12 +6,12 @@ import (
 	"strconv"
 
 	log "github.com/sirupsen/logrus"
-	hc "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	protocol "github.com/stellar/go/protocols/horizon"
+	hc "github.com/stellar/go/sdk/clients/horizonclient"
+	"github.com/stellar/go/sdk/keypair"
+	protocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // Builder implements /builder endpoint

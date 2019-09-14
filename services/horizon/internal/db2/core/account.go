@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // IsAuthRequired returns true if the account has the "AUTH_REQUIRED" option

@@ -2,7 +2,7 @@ package horizon
 
 import (
 	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // Interface verification

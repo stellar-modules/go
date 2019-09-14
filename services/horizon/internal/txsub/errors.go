@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/stellar/go/services/horizon/internal/codes"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 var (

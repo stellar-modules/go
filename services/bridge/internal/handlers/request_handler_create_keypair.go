@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stellar/go/keypair"
+	"github.com/stellar/go/sdk/keypair"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 )
 

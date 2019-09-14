@@ -9,7 +9,7 @@ import (
 	ingestpipeline "github.com/stellar/go/exp/ingest/pipeline"
 	"github.com/stellar/go/exp/orderbook"
 	"github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // OrderbookProcessor is a processor (both state and ledger) that's responsible

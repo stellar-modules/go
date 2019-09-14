@@ -4,8 +4,8 @@ import (
 	"github.com/go-errors/errors"
 	"github.com/stellar/go/services/horizon/internal/db2/core"
 	"github.com/stellar/go/services/horizon/internal/paths"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // Finder implements the paths.Finder interface and searchs for

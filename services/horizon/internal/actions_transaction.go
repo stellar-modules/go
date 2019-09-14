@@ -3,13 +3,13 @@ package horizon
 import (
 	"net/http"
 
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/actions"
 	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
 	"github.com/stellar/go/services/horizon/internal/resourceadapter"
 	"github.com/stellar/go/services/horizon/internal/txsub"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // Interface verification

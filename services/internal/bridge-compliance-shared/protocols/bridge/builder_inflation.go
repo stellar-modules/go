@@ -1,10 +1,10 @@
 package bridge
 
 import (
-	b "github.com/stellar/go/build"
+	b "github.com/stellar/go/sdk/build"
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // InflationOperationBody represents inflation operation

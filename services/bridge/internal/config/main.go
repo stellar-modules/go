@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/stellar/go/keypair"
+	"github.com/stellar/go/sdk/keypair"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
 )
 

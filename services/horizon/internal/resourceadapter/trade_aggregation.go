@@ -3,9 +3,9 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/price"
-	protocol "github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/amount"
+	"github.com/stellar/go/sdk/price"
+	protocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/db2/history"
 )
 

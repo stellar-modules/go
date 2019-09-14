@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/stellar/go/sdk/support/errors"
 )
 
 func TestPutKeys(t *testing.T) {

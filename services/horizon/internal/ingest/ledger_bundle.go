@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/support/errors"
 )
 
 // Load runs queries against `core` to fill in the records of the bundle.

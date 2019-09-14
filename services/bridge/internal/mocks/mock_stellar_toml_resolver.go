@@ -1,7 +1,7 @@
 package mocks
 
 import (
-	"github.com/stellar/go/clients/stellartoml"
+	"github.com/stellar/go/sdk/clients/stellartoml"
 	"github.com/stretchr/testify/mock"
 )
 

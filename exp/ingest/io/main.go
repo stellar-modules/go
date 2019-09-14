@@ -1,8 +1,8 @@
 package io
 
 import (
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 var ErrNotFound = errors.New("not found")

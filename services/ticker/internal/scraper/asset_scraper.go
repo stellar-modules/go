@@ -14,8 +14,8 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	horizonclient "github.com/stellar/go/clients/horizonclient"
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	horizonclient "github.com/stellar/go/sdk/clients/horizonclient"
+	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/ticker/internal/utils"
 )
 

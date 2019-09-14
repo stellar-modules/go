@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // ToBaseAsset transforms Asset to github.com/stellar/go-stellar-base/build.Asset

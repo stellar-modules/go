@@ -11,18 +11,18 @@ import (
 
 	"github.com/facebookgo/inject"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/clients/federation"
-	hc "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/clients/stellartoml"
+	"github.com/stellar/go/sdk/clients/federation"
+	hc "github.com/stellar/go/sdk/clients/horizonclient"
+	"github.com/stellar/go/sdk/clients/stellartoml"
 	"github.com/stellar/go/services/bridge/internal/config"
 	"github.com/stellar/go/services/bridge/internal/db"
 	"github.com/stellar/go/services/bridge/internal/handlers"
 	"github.com/stellar/go/services/bridge/internal/listener"
 	"github.com/stellar/go/services/bridge/internal/submitter"
-	supportConfig "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db/schema"
-	"github.com/stellar/go/support/errors"
-	supportHttp "github.com/stellar/go/support/http"
+	supportConfig "github.com/stellar/go/sdk/support/config"
+	"github.com/stellar/go/sdk/support/db/schema"
+	"github.com/stellar/go/sdk/support/errors"
+	supportHttp "github.com/stellar/go/sdk/support/http"
 )
 
 var app *App

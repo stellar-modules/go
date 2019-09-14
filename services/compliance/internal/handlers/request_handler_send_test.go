@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/protocols/federation"
-	"github.com/stellar/go/support/http/httptest"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/clients/stellartoml"
+	"github.com/stellar/go/sdk/protocols/compliance"
+	"github.com/stellar/go/sdk/protocols/federation"
+	"github.com/stellar/go/sdk/support/http/httptest"
+	"github.com/stellar/go/sdk/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
@@ -19,7 +19,7 @@ import (
 	"github.com/stellar/go/services/compliance/internal/db"
 	"github.com/stellar/go/services/compliance/internal/mocks"
 	"github.com/stellar/go/services/compliance/internal/test"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 func TestRequestHandlerSendInvalidParams(t *testing.T) {

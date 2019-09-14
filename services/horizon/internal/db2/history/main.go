@@ -10,8 +10,8 @@ import (
 	"github.com/guregu/null"
 
 	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 const (

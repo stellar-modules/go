@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar/go/sdk/support/render/httpjson"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 func init() {

@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stellar/go/amount"
+	"github.com/stellar/go/sdk/amount"
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // PathPaymentOperationBody represents path_payment operation

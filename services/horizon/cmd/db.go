@@ -13,9 +13,9 @@ import (
 	"github.com/stellar/go/services/horizon/internal/db2/schema"
 	"github.com/stellar/go/services/horizon/internal/ingest"
 	"github.com/stellar/go/services/horizon/internal/util"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	hlog "github.com/stellar/go/support/log"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/support/errors"
+	hlog "github.com/stellar/go/sdk/support/log"
 )
 
 type reingestType int

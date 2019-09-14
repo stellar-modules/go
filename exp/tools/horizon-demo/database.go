@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 
 	"github.com/stellar/go/exp/ingest/io"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 /* Schema:

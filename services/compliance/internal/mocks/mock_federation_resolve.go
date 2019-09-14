@@ -3,7 +3,7 @@ package mocks
 import (
 	"net/url"
 
-	fprotocol "github.com/stellar/go/protocols/federation"
+	fprotocol "github.com/stellar/go/sdk/protocols/federation"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	protocol "github.com/stellar/go/protocols/horizon"
+	protocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/db2/core"
 	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/render/hal"
 )
 
 // PopulateAccount fills out the resource's fields

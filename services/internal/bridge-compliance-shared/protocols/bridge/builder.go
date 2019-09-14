@@ -6,7 +6,7 @@ import (
 
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // OperationType is the type of operation

@@ -10,7 +10,7 @@ import (
 	"github.com/shurcooL/httpfs/filter"
 
 	bdata "github.com/stellar/go/services/ticker/internal/tickerdb/migrations"
-	supportHttp "github.com/stellar/go/support/http"
+	supportHttp "github.com/stellar/go/sdk/support/http"
 )
 
 func TestGeneratedAssets(t *testing.T) {

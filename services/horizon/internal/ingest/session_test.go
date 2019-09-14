@@ -3,11 +3,11 @@ package ingest
 import (
 	"testing"
 
-	protocolEffects "github.com/stellar/go/protocols/horizon/effects"
+	protocolEffects "github.com/stellar/go/sdk/protocols/horizon/effects"
 	"github.com/stellar/go/services/horizon/internal/db2"
 	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func Test_ingestSignerEffects(t *testing.T) {

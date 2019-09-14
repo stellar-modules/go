@@ -7,13 +7,13 @@ import (
 	"testing"
 
 	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/db2"
 	"github.com/stellar/go/services/horizon/internal/db2/core"
 	"github.com/stellar/go/services/horizon/internal/render/problem"
 	"github.com/stellar/go/services/horizon/internal/simplepath"
 	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func TestPathActions_Index(t *testing.T) {

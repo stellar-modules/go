@@ -9,20 +9,20 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/stellar/go/address"
-	hc "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	hProtocol "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/address"
+	hc "github.com/stellar/go/sdk/clients/horizonclient"
+	"github.com/stellar/go/sdk/keypair"
+	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
+	"github.com/stellar/go/sdk/txnbuild"
 
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/protocols/federation"
+	"github.com/stellar/go/sdk/protocols/compliance"
+	"github.com/stellar/go/sdk/protocols/federation"
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
 	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // Payment implements /payment endpoint

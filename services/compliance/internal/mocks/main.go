@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/stellar/go/sdk/support/http/httptest"
 )
 
 // BuildHTTPResponse is used in tests

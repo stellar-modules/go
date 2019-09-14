@@ -11,8 +11,8 @@ import (
 	"github.com/stellar/go/services/horizon/internal/db2/sqx"
 	"github.com/stellar/go/services/horizon/internal/test"
 	testDB "github.com/stellar/go/services/horizon/internal/test/db"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

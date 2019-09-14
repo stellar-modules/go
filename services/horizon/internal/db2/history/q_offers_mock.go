@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 	"github.com/stretchr/testify/mock"
 )
 

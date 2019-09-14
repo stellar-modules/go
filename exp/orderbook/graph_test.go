@@ -5,8 +5,8 @@ import (
 	"encoding"
 	"testing"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/keypair"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 var (

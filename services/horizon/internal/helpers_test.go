@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/go-chi/chi"
-	"github.com/stellar/go/network"
+	"github.com/stellar/go/sdk/network"
 	"github.com/stellar/go/services/horizon/internal/actions"
 	"github.com/stellar/go/services/horizon/internal/test"
-	supportLog "github.com/stellar/go/support/log"
+	supportLog "github.com/stellar/go/sdk/support/log"
 	"github.com/stellar/throttled"
 )
 

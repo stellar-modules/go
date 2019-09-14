@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/support/errors"
+	"github.com/stellar/go/sdk/support/errors"
 )
 
 const (

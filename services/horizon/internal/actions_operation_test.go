@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/protocols/horizon/effects"
-	"github.com/stellar/go/protocols/horizon/operations"
+	"github.com/stellar/go/sdk/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon/effects"
+	"github.com/stellar/go/sdk/protocols/horizon/operations"
 	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/services/horizon/internal/render/sse"
 	"github.com/stellar/go/services/horizon/internal/test"

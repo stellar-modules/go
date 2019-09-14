@@ -11,8 +11,8 @@ import (
 	"github.com/stellar/go/exp/ingest/io"
 	"github.com/stellar/go/exp/ingest/pipeline"
 	"github.com/stellar/go/exp/ingest/processors"
-	"github.com/stellar/go/support/historyarchive"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/historyarchive"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func main() {

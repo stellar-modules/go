@@ -6,8 +6,8 @@ import (
 
 	"github.com/stellar/go/services/horizon/internal/actions"
 	"github.com/stellar/go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // This file contains the actions:

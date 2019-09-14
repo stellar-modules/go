@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/stellar/go/protocols/compliance"
+	"github.com/stellar/go/sdk/protocols/compliance"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 )
 

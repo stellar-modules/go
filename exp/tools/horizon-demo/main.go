@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/stellar/go/clients/stellarcore"
+	"github.com/stellar/go/sdk/clients/stellarcore"
 	"github.com/stellar/go/exp/ingest"
 	"github.com/stellar/go/exp/ingest/io"
 	"github.com/stellar/go/exp/ingest/ledgerbackend"
 	"github.com/stellar/go/exp/orderbook"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/historyarchive"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/historyarchive"
 )
 
 func main() {

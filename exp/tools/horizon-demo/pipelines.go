@@ -12,7 +12,7 @@ import (
 	"github.com/stellar/go/exp/ingest/processors"
 	"github.com/stellar/go/exp/orderbook"
 	supportPipeline "github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func buildStatePipeline(db *Database, orderBookGraph *orderbook.OrderBookGraph) *pipeline.StatePipeline {

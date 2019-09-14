@@ -13,8 +13,8 @@ import (
 	"github.com/stellar/go/services/horizon/internal/httpx"
 	"github.com/stellar/go/services/horizon/internal/render"
 	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // appContextMiddleware adds the "app" context into every request, so that subsequence appContextMiddleware

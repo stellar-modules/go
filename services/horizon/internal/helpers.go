@@ -3,7 +3,7 @@ package horizon
 import (
 	"encoding/hex"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/stellar/go/sdk/support/errors"
 )
 
 func countNonEmpty(params ...interface{}) (int, error) {

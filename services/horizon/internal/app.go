@@ -12,7 +12,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/clients/stellarcore"
+	"github.com/stellar/go/sdk/clients/stellarcore"
 	"github.com/stellar/go/exp/orderbook"
 	horizonContext "github.com/stellar/go/services/horizon/internal/context"
 	"github.com/stellar/go/services/horizon/internal/db2/core"
@@ -25,10 +25,10 @@ import (
 	"github.com/stellar/go/services/horizon/internal/paths"
 	"github.com/stellar/go/services/horizon/internal/reap"
 	"github.com/stellar/go/services/horizon/internal/txsub"
-	"github.com/stellar/go/support/app"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/stellar/go/sdk/support/app"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/log"
 	"github.com/stellar/throttled"
 	graceful "gopkg.in/tylerb/graceful.v1"
 )

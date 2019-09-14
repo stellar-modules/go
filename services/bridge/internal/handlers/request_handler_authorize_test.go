@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http/httptest"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/http/httptest"
+	"github.com/stellar/go/sdk/txnbuild"
 	"github.com/stretchr/testify/assert"
 
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/bridge/internal/config"
 	"github.com/stellar/go/services/bridge/internal/mocks"
 	"github.com/stellar/go/services/bridge/internal/test"

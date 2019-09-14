@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	hc "github.com/stellar/go/clients/horizonclient"
-	"github.com/stellar/go/keypair"
-	hProtocol "github.com/stellar/go/protocols/horizon"
+	hc "github.com/stellar/go/sdk/clients/horizonclient"
+	"github.com/stellar/go/sdk/keypair"
+	hProtocol "github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/bridge/internal/db"
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/txnbuild"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/txnbuild"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // TransactionSubmitterInterface helps mocking TransactionSubmitter

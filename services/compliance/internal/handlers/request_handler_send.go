@@ -6,17 +6,17 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/stellar/go/address"
-	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/protocols/federation"
+	"github.com/stellar/go/sdk/address"
+	"github.com/stellar/go/sdk/clients/stellartoml"
+	"github.com/stellar/go/sdk/protocols/compliance"
+	"github.com/stellar/go/sdk/protocols/federation"
 	"github.com/stellar/go/services/compliance/internal/db"
 	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols"
 	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
 	callback "github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/compliance"
-	"github.com/stellar/go/txnbuild"
+	"github.com/stellar/go/sdk/txnbuild"
 )
 
 // HandlerSend implements /send endpoint

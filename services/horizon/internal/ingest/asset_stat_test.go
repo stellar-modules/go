@@ -5,10 +5,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/stellar/go/keypair"
+	"github.com/stellar/go/sdk/keypair"
 	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/db"
+	"github.com/stellar/go/sdk/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

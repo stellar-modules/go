@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/historyarchive"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/historyarchive"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // readResult is the result of reading a bucket value

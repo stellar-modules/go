@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/db2/history"
 	. "github.com/stellar/go/services/horizon/internal/db2/history"
 	. "github.com/stellar/go/services/horizon/internal/test/trades"
-	"github.com/stellar/go/support/render/hal"
-	stellarTime "github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/render/hal"
+	stellarTime "github.com/stellar/go/sdk/support/time"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func TestTradeActions_Index(t *testing.T) {

@@ -1,6 +1,6 @@
 package io
 
-import "github.com/stellar/go/xdr"
+import "github.com/stellar/go/sdk/xdr"
 
 // ArchiveLedgerReader placeholder
 type ArchiveLedgerReader interface {

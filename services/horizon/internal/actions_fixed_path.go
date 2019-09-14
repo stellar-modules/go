@@ -1,14 +1,14 @@
 package horizon
 
 import (
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/actions"
 	"github.com/stellar/go/services/horizon/internal/paths"
 	"github.com/stellar/go/services/horizon/internal/render/problem"
 	"github.com/stellar/go/services/horizon/internal/resourceadapter"
 	"github.com/stellar/go/services/horizon/internal/simplepath"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/render/hal"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // Interface verification

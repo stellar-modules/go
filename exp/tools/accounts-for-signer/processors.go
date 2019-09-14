@@ -7,8 +7,8 @@ import (
 
 	"github.com/stellar/go/exp/ingest/io"
 	"github.com/stellar/go/exp/support/pipeline"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 type SimpleProcessor struct {

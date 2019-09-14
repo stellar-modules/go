@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // edgeSet maintains a maping of strings to sorted lists of offers.

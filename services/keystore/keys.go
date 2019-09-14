@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 type encryptedKeysData struct {

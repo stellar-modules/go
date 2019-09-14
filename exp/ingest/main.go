@@ -3,12 +3,12 @@ package ingest
 import (
 	"sync"
 
-	"github.com/stellar/go/clients/stellarcore"
+	"github.com/stellar/go/sdk/clients/stellarcore"
 	"github.com/stellar/go/exp/ingest/io"
 	"github.com/stellar/go/exp/ingest/ledgerbackend"
 	"github.com/stellar/go/exp/ingest/pipeline"
-	"github.com/stellar/go/support/historyarchive"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/support/historyarchive"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 // standardSession contains common methods used by all sessions.

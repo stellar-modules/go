@@ -9,8 +9,8 @@ import (
 	"github.com/stellar/go/services/horizon/internal/hchi"
 	"github.com/stellar/go/services/horizon/internal/ledger"
 	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // getCursor gets the param cursor from either the request URL or the request

@@ -3,7 +3,7 @@ package ticker
 import (
 	"github.com/stellar/go/services/ticker/internal/gql"
 	"github.com/stellar/go/services/ticker/internal/tickerdb"
-	hlog "github.com/stellar/go/support/log"
+	hlog "github.com/stellar/go/sdk/support/log"
 )
 
 func StartGraphQLServer(s *tickerdb.TickerSession, l *hlog.Entry, port string) {

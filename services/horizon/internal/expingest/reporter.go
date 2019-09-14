@@ -3,7 +3,7 @@ package expingest
 import (
 	"time"
 
-	ilog "github.com/stellar/go/support/log"
+	ilog "github.com/stellar/go/sdk/support/log"
 )
 
 // LoggingStateReporter logs the progress of a session running its

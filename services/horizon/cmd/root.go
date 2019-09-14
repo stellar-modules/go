@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/viper"
 	horizon "github.com/stellar/go/services/horizon/internal"
 	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	apkg "github.com/stellar/go/support/app"
-	support "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/log"
+	apkg "github.com/stellar/go/sdk/support/app"
+	support "github.com/stellar/go/sdk/support/config"
+	"github.com/stellar/go/sdk/support/log"
 	"github.com/stellar/throttled"
 )
 

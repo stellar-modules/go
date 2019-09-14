@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/db2/history"
 	"github.com/stellar/go/services/horizon/internal/render/problem"
 	"github.com/stellar/go/services/horizon/internal/render/sse"
 	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/xdr"
+	"github.com/stellar/go/sdk/xdr"
 )
 
 func TestOfferActions_Show(t *testing.T) {

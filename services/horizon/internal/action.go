@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/stellar/go/protocols/horizon"
+	"github.com/stellar/go/sdk/protocols/horizon"
 	"github.com/stellar/go/services/horizon/internal/actions"
 	"github.com/stellar/go/services/horizon/internal/db2"
 	"github.com/stellar/go/services/horizon/internal/db2/core"
@@ -17,10 +17,10 @@ import (
 	"github.com/stellar/go/services/horizon/internal/render/sse"
 	"github.com/stellar/go/services/horizon/internal/resourceadapter"
 	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/support/render/httpjson"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/stellar/go/sdk/support/errors"
+	"github.com/stellar/go/sdk/support/log"
+	"github.com/stellar/go/sdk/support/render/httpjson"
+	"github.com/stellar/go/sdk/support/render/problem"
 )
 
 // Action is the "base type" for all actions in horizon.  It provides
